@@ -7,7 +7,7 @@ void main() {
   print("Masukkan berat laundry (kg):");
   double berat = double.parse(stdin.readLineSync()!);
 
-  // Jika berat kurang dari 2 kg, dihitung 2 kg
+
   if (berat < 2) {
     berat = 2;
   }
